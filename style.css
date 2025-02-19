@@ -1,0 +1,28 @@
+@media (max-width: 570px) {
+	/*for smartphone*/
+	body{width: 100%;}
+	.tablet, .desktop, .tv {display: none};
+	
+	
+}
+
+@media (min-width: 571px) and (max-width: 768px){
+/*for tablet*/
+	body{ width: 80%; }
+	.mobile, .desktop, .tv{ display: none; }
+}
+
+@media (min-width: 769px) and (max-width: 1279px){
+/*for desktop	*/
+	body{width: 80%;}
+		.tv, .tablet, .mobile {display: none}
+		
+}
+@media (min-width: 1280px){
+/*# for TV	*/
+	body{width: 80%;}
+		.tablet {display: none}
+		.mobile, .desktop{ display: none; }
+		
+
+}
